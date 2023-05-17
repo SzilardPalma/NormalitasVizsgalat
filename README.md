@@ -15,7 +15,7 @@ A Github repository az alábbi fájlrendszert tartalmazza:
       * d24: 10%-ban kevert, N(3,1) eloszlással
     - (A 'd...xlsx' file-okban az eloszlások sorrendje a testDistributions.mat és a contaminatedDist, simulatedDistributions Matlab file-ok alapján ellenőrizhető).
   - Szimulált minták alapján képzett négy csoport ('g...xlsx').
-  - Szimulált kritikus értékek. A kritikus értékek 1-10 sorai az n = 10, 20, 30, ..., 100-as elemszámú mintára vonatkoznak. Minden mintára m = 50 000 $\mathcal{N}(0,1)$ eloszlású minta volt szimulálva. Az eredmények az oszlopok szerint az alábbi tesztekhez tartoznak:
+  - Szimulált kritikus értékek. A kritikus értékek 1-10 sorai az n = 10, 20, 30, ..., 100-as elemszámú mintára vonatkoznak. Minden elemszámra m = 50 000 darab $\mathcal{N}(0,1)$ eloszlású minta volt szimulálva, ami összesen 500 000 minta. Az eredmények az oszlopok szerint az alábbi tesztekhez tartoznak:
     - Shapiro-Wilk teszt
     - Shapiro-Francia teszt
     - Anderson-Darling teszt
