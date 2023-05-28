@@ -11,7 +11,8 @@ A Github repository az alábbi fájlrendszert tartalmazza:
     - Shapiro-Francia teszt
     - Anderson-Darling teszt
     - Cramér-von Mises teszt
-    - Kolmogorov-Smirnov-teszt
+    - Kolmogorov-Smirnov teszt
+    - Jarque-Bera teszt
     - D'Agostino-Pearson teszt
     - Vasicek teszt
     - Khí-négyzet teszt
@@ -21,7 +22,7 @@ A Github repository az alábbi fájlrendszert tartalmazza:
     - Shapiro-Francia teszt
     - Anderson-Darling teszt
     - Cramér-von Mises teszt
-    - Kolmogorov-Smirnov-teszt
+    - Kolmogorov-Smirnov teszt
     - D'Agostino-Pearson teszt
     - Vasicek teszt
     - Khí-négyzet teszt
