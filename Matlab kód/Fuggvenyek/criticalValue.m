@@ -1,4 +1,4 @@
-function [cValue] = criticalValue(x, testName, alpha, percentile, chi2Test)
+function [cValue] = criticalValue(x, testName, percentile, chi2Test)
 %   The percentile is used to obtain the ctical values:
 %   (1- alpha) for right-tailed, (alpha) for right-tailed 
 
@@ -30,8 +30,8 @@ end
 [f,xValues]=ecdf(testStats);
 
 % approximate the given percentile:
-A = repmat(percentile,[1 length(f)]);
-[minValue,closestIndex] = min(abs(A-f'));
-cValue = xValues(closestIndex);
-
+%A = repmat(percentile,[1 length(f)]);
+%[minValue,closestIndex] = min(abs(A-f'));
+%cValue = xValues(closestIndex);
+cValue = prctile(testStats, percentile*100);
 end
