@@ -23,6 +23,7 @@ A Github repository az alábbi fájlrendszert tartalmazza:
     - Anderson-Darling teszt
     - Cramér-von Mises teszt
     - Kolmogorov-Smirnov teszt
+    - Jarque-Bera teszt
     - D'Agostino-Pearson teszt
     - Vasicek teszt
     - Khí-négyzet teszt
